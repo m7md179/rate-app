@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap');
+.body{
+background-color: #3b4664;
+}
+.body2{ 
+   background-color: #E7E7E7;
+}
+.body3{
+    background-color: #17062a;
+}
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10%;
+  padding-bottom: 270px ;
+  
+}
+.tag{
+  display: flex;
+  justify-content: space-between;
+  width: 25%;
+  color: #fefeff;
+  font-family: 'League Spartan', sans-serif;
+}
+.tag2{
+  display: flex;
+  justify-content: space-between;
+  width: 25%;
+  color: #373531;
+  font-family: 'League Spartan', sans-serif;
+}
+.tag3{
+  display: flex;
+  justify-content: space-between;
+  width: 25%;
+  color: #fee53f;
+  font-family: 'League Spartan', sans-serif;
+}
+.tag h2{
+  font-size: 35px;
+}
+.tag2 h2 {
+  font-size: 35px;
+}
+.tag3 h2 {
+  font-size: 35px;
+}
+.theme-tag{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.theme-selector{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+  padding-left: 10px;
+}
+.theme-nums{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.theme-nums p {
+  margin: 0 6px 0 6px;
+}
+.theme{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 3px;
+  padding-top: -5px;
+  height: 20px;
+  background-color: #252D44;
+  border-radius: 12px;
+}
+.theme2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 3px;
+  padding-top: -5px;
+  height: 20px;
+  background-color: #D4CDCD;
+  border-radius: 12px;
+}
+.theme3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 3px;
+  padding-top: -5px;
+  height: 20px;
+  background-color: #1e0836;
+  border-radius: 12px;
+}
+.screen{
+  height: 100px;
+  width: 25%;
+  background-color: #1b1f32;
+  color: #fff;
+  text-align: end;
+  padding-right: 20px;
+  border-radius: 10px;
+}
+.screen2{
+  height: 100px;
+  width: 25%;
+  background-color: #EFEFEF;
+  color: #373531;
+  text-align: end;
+  padding-right: 20px;
+  border-radius: 10px;
+}
+.screen3{
+  height: 100px;
+  width: 25%;
+  background-color: #1e0836;
+  color: #ffe43c;
+  text-align: end;
+  padding-right: 20px;
+  border-radius: 10px;
+}
+.numpad{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-gap: 2em;
+  padding: 10px 20px 10px 20px;
+  
+}
+.num-cont{
+  margin-top: 20px;
+    padding-top: 20px;
+    width: 26%;
+    height: 360px;
+    border-radius: 10px;
+    background-color: #252D44;
+}
+.num-cont2{
+  margin-top: 20px;
+    padding-top: 20px;
+    width: 26%;
+    height: 360px;
+    border-radius: 10px;
+    background-color: #D4CDCD;
+}
+.num-cont3{
+  margin-top: 20px;
+    padding-top: 20px;
+    width: 26%;
+    height: 360px;
+    border-radius: 10px;
+    background-color: #1e0836;
+}
+.re-eq{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 20px;
+}
+.re-eq2{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 20px;
+}
+.re-eq3{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 20px;
+}
+.re-eq button{
+  width: 175px;
+  background-color: #d13f30;
+  border: #d13f30;
+  color: #fefeff;
+  box-shadow: 0px 1px 3px 0px rgba(153, 35, 21, 1);
+  -webkit-box-shadow: 0px 1px 3px 0px rgba(153, 35, 21, 1);
+  -moz-box-shadow: 0px 1px 3px 0px rgba(153, 35, 21, 1);
+}
+.re-eq2 button{
+  width: 175px;
+  background-color: #C85400;
+  border: #C85400;
+  color: #fefeff;
+  box-shadow: 0px 1px 3px 0px rgb(164,72,3);
+  -webkit-box-shadow: 0px 1px 3px 0px rgb(164,72,3);
+  -moz-box-shadow: 0px 1px 3px 0px rgb(164,72,3);
+}
+.re-eq3 button{
+  width: 175px;
+  background-color: #00decf;
+  border: #00decf;
+  color: #052d34;
+  box-shadow: 0px 1px 3px 0px rgba(103,252,243,255);
+  -webkit-box-shadow: 0px 1px 3px 0px rgba(103,252,243,255);
+  -moz-box-shadow: 0px 1px 3px 0px rgba(103,252,243,255);
+}
+.del button{
+  background-color: #647299;
+  border: #647299;
+  color: #052d34;
+  box-shadow: 0px 1px 3px 0px rgba(65, 77, 117, 1);
+  -webkit-box-shadow: 0px 1px 3px 0px rgba(65, 77, 117, 1);
+  -moz-box-shadow: 0px 1px 3px 0px rgba(65, 77, 117, 1);
+  font-size: 20PX;
+}
+.del2 button{
+  background-color: #398188;
+  border: #398188;
+  color: #fefeff;
+  box-shadow: 0px 1px 3px 0px rgb(27,99,104);
+  -webkit-box-shadow: 0px 1px 3px 0px rgb(27,99,104);
+  -moz-box-shadow: 0px 1px 3px 0px rgb(27,99,104);
+  font-size: 20PX;
+}
+.del3 button{
+  background-color: #57067d;
+  border: #57067d;
+  color: #fefeff;
+  box-shadow: 0px 1px 3px 0px rgb(177,29,228);
+  -webkit-box-shadow: 0px 1px 3px 0px rgb(177,29,228);
+  -moz-box-shadow: 0px 1px 3px 0px rgb(177,29,228);
+  font-size: 20PX;
+}
+.reset button{
+  background-color: #647299;
+  border: #647299;
+  color: #fefeff;
+  box-shadow: 0px 1px 3px 0px rgba(65, 77, 117, 1);
+  -webkit-box-shadow: 0px 1px 3px 0px rgba(65, 77, 117, 1);
+  -moz-box-shadow: 0px 1px 3px 0px rgba(65, 77, 117, 1);
+  font-size: 20px;
+}
+.reset2 button{
+  background-color: #398188;
+  border: #398188;
+  color: #fefeff;
+  box-shadow: 0px 1px 3px 0px rgb(27,99,104);
+  -webkit-box-shadow: 0px 1px 3px 0px rgb(27,99,104);
+  -moz-box-shadow: 0px 1px 3px 0px rgb(27,99,104);
+  font-size: 20px;
+}
+.reset3 button{
+  background-color: #57067d;
+  border: #57067d;
+  color: #fefeff;
+  box-shadow: 0px 1px 3px 0px rgb(177,29,228);
+  -webkit-box-shadow: 0px 1px 3px 0px rgb(177,29,228);
+  -moz-box-shadow: 0px 1px 3px 0px rgb(177,29,228);
+  font-size: 20px;
+}
+.re-eq button:hover{
+  background-color:#f96c5b;;
+}
+.del button:hover{
+  background-color: #a1b3e1;
+}
+.reset button:hover{
+  background-color: #a1b3e1;
+}
+.re-eq2 button:hover{
+  background-color:#ff8b38;;
+}
+.del2 button:hover{
+  background-color: #61b5bd;
+}
+.reset2 button:hover{
+  background-color: #61b5bd;
+}
+.re-eq3 button:hover{
+  background-color: #94fff9;
+}
+.del3 button:hover{
+  background-color: #802ead;
+}
+.reset3 button:hover{
+  background-color: #802ead;
+}
